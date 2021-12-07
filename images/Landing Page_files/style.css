@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #1F2937;
+    display: flex;
+    padding: 5px 0 0 200px;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    padding: 0 200px 0 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.nothero {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    text-align: left;
+    
+    padding-left: 250px;
+}
+
+.image img {
+    width: 55%;
+    border: solid black;
+}
+
+img {
+    width: 200px;
+}
+
+.butt {
+    width: 100px;
+    height: 25px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    max-width: 300px;
+    margin-bottom: 60px;
+    
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 95px;
+}
+
+.quote {
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    max-width: 750px;
+    text-align: left;
+}
+
+.guy {
+    display: flex;
+    align-self: center;
+    padding-left: 450px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #3882F6;
+    margin: 90px 350px;
+    padding: 20px;
+}
+
+.action {
+    text-align: left;
+    margin-right: 50px;
+}
+
+.butt.sign {
+    border: solid white 1px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 80px;
+    color: #FFFFFF;
+}
